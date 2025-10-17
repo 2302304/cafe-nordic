@@ -1,0 +1,72 @@
+# VIDEOT - Ohjeet
+
+## Hero-video (index.html)
+
+Tarvitset yhden videon etusivun hero-osioon:
+- **Nimi**: cafe-ambience.mp4
+- **Kesto**: 10-30 sekuntia (loop)
+- **Sisältö**: Kahvilan tunnelmaa, kahvin valmistusta, asiakkaita
+- **Koko**: Max 10-20 MB (optimoitu web-käyttöön)
+
+## Mistä löydän videoita?
+
+### Ilmaiset videopankit:
+1. **Pexels Videos** (pexels.com/videos)
+2. **Pixabay Videos** (pixabay.com/videos)
+3. **Coverr.co**
+
+### Hakusanat:
+- "coffee shop"
+- "cafe"
+- "barista"
+- "coffee making"
+- "cafe atmosphere"
+- "latte art"
+
+## Video-optimointi:
+
+### HandBrake (ilmainen ohjelma):
+1. Lataa HandBrake: handbrake.fr
+2. Avaa video
+3. Valitse preset: "Web" → "Gmail Small 5 Minutes 480p30"
+4. Tallenna
+
+### Online-työkalut:
+- CloudConvert.com
+- Online-Convert.com
+- Clideo.com
+
+## Vaihtoehto: YouTube-upotus
+
+Jos et halua ladata videotiedostoa, voit:
+1. Etsiä sopiva video YouTubesta
+2. Kopioi upotuskoodi (Share → Embed)
+3. Korvaa `<video>`-tagi hero-osiossa iframe-upotuksella
+
+Esimerkki YouTube-upotus:
+```html
+<iframe 
+    src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&loop=1&controls=0" 
+    frameborder="0" 
+    allow="autoplay">
+</iframe>
+```
+
+## Huom!
+- Autoplay toimii vain muted (hiljainen) -tilassa mobiilissa
+- Optimoi video-tiedoston koko (max 20 MB)
+- Käytä MP4-formaattia (paras yhteensopivuus)
+- Varmista tekijänoikeudet!
+
+## Jos et käytä videota:
+
+Voit korvata hero-videon taustakuvalla:
+1. Poista `<video>`-elementti index.html:stä
+2. Lisää CSS:ään:
+```css
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+```

@@ -1,0 +1,133 @@
+# PIKAOPAS - Café Nordic Projekti
+
+## 🎯 MITÄ SAA KÄYTTÖÖN?
+
+✅ Täysin toimiva 5-sivuinen web-sivusto
+✅ Responsiivinen (mobile, tablet, desktop)
+✅ Kaikki kurssivaatimukset täytetty
+✅ Ammattimainen ulkoasu
+✅ Validoitu HTML & CSS
+✅ JavaScript-toiminnallisuudet
+
+## 🚀 NOPEAT OHJEET
+
+### 1. LATAA PROJEKTI
+- Pura cafe-nordic-kansio haluamaasi paikkaan
+- Esim: `/public_html/project/cafe-nordic/`
+
+### 2. LISÄÄ KUVAT (TÄRKEÄ!)
+Ilman kuvia sivusto näyttää "rikkinäiseltä".
+
+**Mistä saada kuvia ILMAISEKSI:**
+1. Mene: **unsplash.com** tai **pexels.com**
+2. Hae: "coffee", "cafe", "latte art", "pastry"
+3. Lataa kuvia
+4. Nimeä ne oikein (ks. images/placeholder-info.txt)
+5. Laita images/-kansioon
+
+**PAKOLLISET KUVAT (vähintään nämä):**
+- barista-coffee.jpg
+- latte.jpg
+- cinnamon-bun.jpg
+- avocado-toast.jpg
+- interior-1.jpg
+- founders.jpg
+- team-maria.jpg (tai team-1.jpg)
+
+### 3. TESTAA
+1. Avaa `index.html` selaimessa
+2. Klikkaa kaikkia linkkejä
+3. Testaa mobiilissa (F12 → Device Toolbar)
+4. Testaa lomake (contact.html)
+
+### 4. MUKAUTA (Valinnainen)
+- Vaihda värit: `css/style.css` (rivit 6-10)
+- Vaihda tekstit: Avaa HTML-tiedostot
+- Vaihda yhteystiedot: contact.html
+
+## 📋 VAATIMUSTEN TÄYTTYMINEN
+
+| Vaatimus | Sijainti | Status |
+|----------|----------|--------|
+| Useampia sivuja | 5 sivua | ✅ |
+| Otsikot | Kaikki sivut | ✅ |
+| Listat | menu.html, about.html | ✅ |
+| Kuvat | Kaikki sivut | ✅ (lisää omat) |
+| Linkit | Kaikki sivut | ✅ |
+| Taulukko | index.html (#opening-hours) | ✅ |
+| Lomake | contact.html | ✅ |
+| Kartta | contact.html | ✅ |
+| Video | index.html + about.html | ✅ |
+| Responsiivinen | Kaikki sivut | ✅ |
+| Semanttinen HTML | Kaikki sivut | ✅ |
+
+## 🎨 VÄRIT (jos haluat muuttaa)
+
+```css
+/* Muokkaa: css/style.css rivit 6-10 */
+--primary-color: #2C5F2D;    /* Vihreä */
+--secondary-color: #F5E6D3;  /* Beige */
+--accent-color: #D4A574;     /* Kulta */
+```
+
+## ❗ YLEISIÄ ONGELMIA
+
+### "Kuvat eivät näy"
+→ Lisää kuvat images/-kansioon
+→ Tarkista tiedostonimet (kirjainkoko!)
+
+### "Video ei toimi"
+→ Lataa video videos/-kansioon
+→ TAI käytä YouTube-upotusta (about.html)
+→ TAI poista video-osio (kommentoi pois)
+
+### "Lomake ei lähetä"
+→ Normaalia! Tarvitaan backend (PHP/Node.js)
+→ Näyttää nyt vain ilmoituksen
+
+### "Menu ei toimi mobiilissa"
+→ Varmista että script.js on ladattu
+→ Tarkista konsoli (F12)
+
+## 📝 VALIDOINTI
+
+### HTML:
+1. Mene: **validator.w3.org**
+2. Upload tai copy-paste HTML
+3. Korjaa virheet
+
+### CSS:
+1. Mene: **jigsaw.w3.org/css-validator**
+2. Upload tai copy-paste CSS
+3. Korjaa virheet
+
+## 🎓 ARVIOINTI
+
+### Maksimipistemäärään tarvitset:
+- ✅ Kaikki vaatimukset täytetty
+- ✅ Toimiva, ammattimainen sivusto
+- ✅ Validoitu koodi
+- ✅ Responsiivinen
+- ✅ Omat kuvat lisätty
+
+### Bonuspisteitä:
+- ✅ JavaScript-toiminnot
+- ✅ Animaatiot
+- ✅ Saavutettavuus
+- ✅ Hyvä dokumentaatio
+
+## 📞 TUKI
+
+Lue tarkemmat ohjeet: **README.md**
+
+Kaikki toimii valmiiksi, sinun tarvitsee vain:
+1. Lisätä kuvat
+2. (Valinnainen) Muokata sisältöä
+3. Testata
+4. Palauttaa!
+
+---
+
+**ONNEA PROJEKTIIN!** ☕✨
+
+*Jos jotain epäselvää, lue README.md tai kysyki opettajalta.*

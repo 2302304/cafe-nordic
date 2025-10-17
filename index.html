@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Nordic - Moderni kahvila keskellä Vaasaa. Laadukasta kahvia, tuoreita leivonnaisia ja herkullista lounasta.">
+    <meta name="keywords" content="kahvila, Vaasa, kahvi, lounas, leivonnaiset">
+    <title>Café Nordic - Tervetuloa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigaatio -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <h1>Café Nordic</h1>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Avaa valikko">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Etusivu</a></li>
+                    <li><a href="menu.html">Ruokalista</a></li>
+                    <li><a href="about.html">Meistä</a></li>
+                    <li><a href="gallery.html">Galleria</a></li>
+                    <li><a href="contact.html">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero-osio videolla -->
+    <section class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cafe-ambience.mp4" type="video/mp4">
+                Selaimesi ei tue video-elementtiä.
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h2>Tervetuloa Café Nordiciin</h2>
+            <p>Pohjoismainen kahvikulttuuri kohtaa modernin makuelämyksen</p>
+            <a href="menu.html" class="btn btn-primary">Tutustu menuumme</a>
+        </div>
+    </section>
+
+    <!-- Pääsisältö -->
+    <main>
+        <!-- Esittely-osio -->
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-text">
+                        <h2>Nautinnollinen kahvihetki</h2>
+                        <p>Café Nordic on <strong>Vaasan sydämessä</strong> sijaitseva moderni kahvila, joka tarjoaa ainutlaatuisen yhdistelmän pohjoismaista kahvikulttuuria ja kansainvälisiä makuja.</p>
+                        <p>Meillä jokainen kupillinen on tarkoin valmistettu <em>käsityönä</em>, ja kaikki leivonnaisemme tehdään päivittäin tuoreista raaka-aineista.</p>
+                        <ul class="feature-list">
+                            <li>Reilun kaupan kahvit</li>
+                            <li>Tuoreet, päivittäin leivotut leivonnaiset</li>
+                            <li>Kasvis- ja vegaanivaihtoehdot</li>
+                            <li>Lähituottajien raaka-aineet</li>
+                            <li>Gluteenittomat vaihtoehdot</li>
+                        </ul>
+                        <a href="about.html" class="btn btn-secondary">Lue lisää meistä</a>
+                    </div>
+                    <div class="intro-image">
+                        <img src="images/barista-coffee.jpg" alt="Barista valmistaa latte artea">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Suosituimmat tuotteet -->
+        <section class="featured-products">
+            <div class="container">
+                <h2>Asiakkaiden suosikit</h2>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <img src="images/latte.jpg" alt="Nordic Latte kahvikuppi">
+                        <h3>Nordic Latte</h3>
+                        <p>Pehmeä maitovaahto ja laadukas espresso täydellisessä harmoniassa</p>
+                        <span class="price">4.50 €</span>
+                    </article>
+                    <article class="product-card">
+                        <img src="images/cinnamon-bun.jpg" alt="Tuore korvapuusti">
+                        <h3>Korvapuusti</h3>
+                        <p>Perinteinen suomalainen herkku, leivottu päivittäin</p>
+                        <span class="price">3.20 €</span>
+                    </article>
+                    <article class="product-card">
+                        <img src="images/avocado-toast.jpg" alt="Avokadoleipä">
+                        <h3>Avokadoleipä</h3>
+                        <p>Tuore avokado, hapanjuurileipä ja sesongin kasviksia</p>
+                        <span class="price">8.90 €</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aukioloajat taulukkona -->
+        <section class="opening-hours">
+            <div class="container">
+                <h2>Aukioloajat</h2>
+                <table class="hours-table">
+                    <thead>
+                        <tr>
+                            <th>Päivä</th>
+                            <th>Aika</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maanantai - Perjantai</td>
+                            <td><time>07:00 - 18:00</time></td>
+                        </tr>
+                        <tr>
+                            <td>Lauantai</td>
+                            <td><time>09:00 - 17:00</time></td>
+                        </tr>
+                        <tr>
+                            <td>Sunnuntai</td>
+                            <td><time>10:00 - 16:00</time></td>
+                        </tr>
+                        <tr class="holiday-hours">
+                            <td>Juhlapyhät</td>
+                            <td>Suljettu</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Some-osio -->
+        <section class="social-section">
+            <div class="container">
+                <h2>Seuraa meitä somessa</h2>
+                <p>Pysy ajan tasalla uusista tuotteista ja tapahtumista!</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+                        <span class="sr-only">Instagram</span>
+                        📷 Instagram
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+                        <span class="sr-only">Facebook</span>
+                        📘 Facebook
+                    </a>
+                    <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link tiktok">
+                        <span class="sr-only">TikTok</span>
+                        🎵 TikTok
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Café Nordic</h3>
+                    <p>Pohjoismaista laatua<br>sydämellä tehden</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Linkit</h4>
+                    <ul>
+                        <li><a href="index.html">Etusivu</a></li>
+                        <li><a href="menu.html">Ruokalista</a></li>
+                        <li><a href="about.html">Meistä</a></li>
+                        <li><a href="contact.html">Yhteystiedot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Yhteystiedot</h4>
+                    <address>
+                        Hovioikeudenpuistikko 11<br>
+                        65100 Vaasa<br>
+                        <a href="tel:+358401234567">+358 40 123 4567</a><br>
+                        <a href="mailto:info@cafenordic.fi">info@cafenordic.fi</a>
+                    </address>
+                </div>
+                <div class="footer-column">
+                    <h4>Seuraa meitä</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Nordic. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

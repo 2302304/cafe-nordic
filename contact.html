@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ota yhteyttä Café Nordiciin tai varaa pöytä. Löydät meidät Vaasan keskustasta.">
+    <title>Yhteystiedot - Café Nordic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigaatio -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <h1>Café Nordic</h1>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Avaa valikko">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="menu.html">Ruokalista</a></li>
+                    <li><a href="about.html">Meistä</a></li>
+                    <li><a href="gallery.html">Galleria</a></li>
+                    <li><a href="contact.html" class="active">Yhteystiedot</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="page-hero contact-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>Ota yhteyttä</h2>
+            <p>Olemme täällä auttamassa</p>
+        </div>
+    </section> 
+
+    <main class="contact-page">
+        <div class="container">
+            <!-- Yhteystiedot ja kartta -->
+            <section class="contact-info-section">
+                <div class="contact-grid">
+                    <!-- Yhteystiedot -->
+                    <div class="contact-details">
+                        <h2>Yhteystiedot</h2>
+                        
+                        <div class="contact-item">
+                            <h3>📍 Osoite</h3>
+                            <address>
+                                Café Nordic<br>
+                                Hovioikeudenpuistikko 11<br>
+                                65100 Vaasa<br>
+                                Suomi
+                            </address>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>📞 Puhelin</h3>
+                            <p><a href="tel:+358401234567">+358 40 123 4567</a></p>
+                            <p><small>Vastaamme ma-pe klo 9-17</small></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>✉️ Sähköposti</h3>
+                            <p><a href="mailto:info@cafenordic.fi">info@cafenordic.fi</a></p>
+                            <p><small>Vastaamme 24 tunnin kuluessa</small></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>⏰ Aukioloajat</h3>
+                            <dl class="opening-times">
+                                <dt>Maanantai - Perjantai:</dt>
+                                <dd><time>07:00 - 18:00</time></dd>
+                                
+                                <dt>Lauantai:</dt>
+                                <dd><time>09:00 - 17:00</time></dd>
+                                
+                                <dt>Sunnuntai:</dt>
+                                <dd><time>10:00 - 16:00</time></dd>
+                            </dl>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>🌐 Sosiaalinen media</h3>
+                            <div class="social-links-vertical">
+                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram: @cafenordic</a>
+                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook: Café Nordic Vaasa</a>
+                                <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">TikTok: @cafenordic</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kartta -->
+                    <div class="map-container">
+                        <h2>Löydä meille</h2>
+                        <div class="map-wrapper">
+                        <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.0!2d21.6167!3d63.0960!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d605e67c8b3a5%3A0x8c8b5b8d8a8b8c8d!2sHovioikeudenpuistikko%2011%2C%2065100%20Vaasa!5e0!3m2!1sfi!2sfi!4v1234567890123!5m2!1sfi!2sfi" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Café Nordic sijainti kartalla">
+                            </iframe>
+                        </div>
+                        <p class="map-directions">
+                            <strong>Saapumisohjeet:</strong><br>
+                            Sijaitsemme Vaasan keskustassa, kävelymatkan päässä Kauppatorista. 
+                            Lähimmät parkkipaikat: Rewell Center (5 min kävely) ja katuparkit Hovioikeudenpuistikolla.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Varauslomake -->
+            <section class="booking-section">
+                <h2>Varaa pöytä</h2>
+                <p class="booking-intro">Täytä alla oleva lomake varataksesi pöydän. Vahvistamme varauksesi sähköpostitse 24 tunnin kuluessa.</p>
+                
+                <form action="process-booking.php" method="POST" class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nimi <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required 
+                                placeholder="Etunimi Sukunimi"
+                                aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Sähköposti <span class="required">*</span></label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                placeholder="nimi@esimerkki.fi"
+                                aria-required="true">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Puhelinnumero <span class="required">*</span></label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                required 
+                                placeholder="+358 40 123 4567"
+                                aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guests">Henkilömäärä <span class="required">*</span></label>
+                            <select id="guests" name="guests" required aria-required="true">
+                                <option value="">Valitse...</option>
+                                <option value="1">1 henkilö</option>
+                                <option value="2">2 henkilöä</option>
+                                <option value="3">3 henkilöä</option>
+                                <option value="4">4 henkilöä</option>
+                                <option value="5">5 henkilöä</option>
+                                <option value="6">6 henkilöä</option>
+                                <option value="7">7 henkilöä</option>
+                                <option value="8">8 henkilöä</option>
+                                <option value="more">Yli 8 henkilöä</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Päivämäärä <span class="required">*</span></label>
+                            <input 
+                                type="date" 
+                                id="date" 
+                                name="date" 
+                                required
+                                min="2025-10-18"
+                                aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Kellonaika <span class="required">*</span></label>
+                            <select id="time" name="time" required aria-required="true">
+                                <option value="">Valitse aika...</option>
+                                <option value="07:00">07:00</option>
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="special-requests">Erityistoiveet tai allergiat</label>
+                        <textarea 
+                            id="special-requests" 
+                            name="special_requests" 
+                            rows="4" 
+                            placeholder="Kerro mahdollisista erityistoiveista, allergioista tai ruokavaliorajoituksista..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input 
+                            type="checkbox" 
+                            id="newsletter" 
+                            name="newsletter" 
+                            value="yes">
+                        <label for="newsletter">
+                            Haluan liittyä uutiskirjeen tilaajiin ja saada tietoa tarjouksista
+                        </label>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input 
+                            type="checkbox" 
+                            id="terms" 
+                            name="terms" 
+                            required 
+                            aria-required="true">
+                        <label for="terms">
+                            Hyväksyn <a href="#" target="_blank">käyttöehdot</a> ja <a href="#" target="_blank">tietosuojaselosteen</a> <span class="required">*</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Lähetä varaus</button>
+                    
+                    <p class="form-note"><small><span class="required">*</span> = Pakollinen kenttä</small></p>
+                </form>
+            </section>
+
+            <!-- Usein kysytyt kysymykset -->
+            <section class="faq-section">
+                <h2>Usein kysytyt kysymykset</h2>
+                <div class="faq-grid">
+                    <article class="faq-item">
+                        <h3>Tarvitseeko pöydän varata etukäteen?</h3>
+                        <p>Varaus ei ole pakollinen, mutta suosittelemme varaamaan pöydän etukäteen erityisesti viikonloppuisin ja lounasaikaan (klo 11-14) varmistaaksesi paikan.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>Onko teillä kasvis- ja vegaanivaihtoehtoja?</h3>
+                        <p>Kyllä! Meillä on runsaasti kasvis- ja vegaanivaihtoehtoja sekä ruoissa että leivonnaisissa. Myös gluteenittomat vaihtoehdot ovat saatavilla.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>Voiko teillä järjestää yksityisiä tilaisuuksia?</h3>
+                        <p>Kyllä voi! Tarjoamme tilojamme yksityistilaisuuksiin, kokouksiin ja tapahtumiin. Ota yhteyttä sähköpostitse tai soita meille saadaksesi lisätietoja.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>Onko WiFi käytettävissä?</h3>
+                        <p>Kyllä, tarjoamme ilmaisen WiFi-yhteyden kaikille asiakkaillemme. Verkon nimi ja salasana löytyvät kahvilasta.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>Voiko kahvilan tuotteita ostaa mukaan?</h3>
+                        <p>Tottakai! Kaikki tuotteemme ovat saatavilla myös mukaan. Tarjoamme myös kahvipapuja ostettavaksi kotiin.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3>Onko kahvila esteetön?</h3>
+                        <p>Kyllä, kahvilamme on täysin esteetön. Sisäänkäynti on pyörätuolilla helposti saavutettavissa ja meillä on esteetön WC.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Café Nordic</h3>
+                    <p>Pohjoismaista laatua<br>sydämellä tehden</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Linkit</h4>
+                    <ul>
+                        <li><a href="index.html">Etusivu</a></li>
+                        <li><a href="menu.html">Ruokalista</a></li>
+                        <li><a href="about.html">Meistä</a></li>
+                        <li><a href="contact.html">Yhteystiedot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Yhteystiedot</h4>
+                    <address>
+                        Hovioikeudenpuistikko 11<br>
+                        65100 Vaasa<br>
+                        <a href="tel:+358401234567">+358 40 123 4567</a><br>
+                        <a href="mailto:info@cafenordic.fi">info@cafenordic.fi</a>
+                    </address>
+                </div>
+                <div class="footer-column">
+                    <h4>Seuraa meitä</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Nordic. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

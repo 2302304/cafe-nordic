@@ -1,0 +1,127 @@
+# ✅ TARKISTUSLISTA ENNEN PALAUTUSTA
+
+## 📋 PAKOLLISET TEHTÄVÄT
+
+### 1. KUVAT
+- [ ] Ladattu vähintään 15 kuvaa ilmaisista kuvapankeista
+- [ ] Kuvat nimetty oikein (ks. images/placeholder-info.txt)
+- [ ] Kuvat sijoitettu images/-kansioon
+- [ ] Kaikki sivut näyttävät hyvältä kuvien kanssa
+
+### 2. SISÄLTÖ
+- [ ] Luettu kaikki sivut läpi
+- [ ] Tarkistettu että tekstit ovat järkeviä
+- [ ] Ei kirjoitusvirheitä (tarkista!)
+- [ ] Kaikki linkit toimivat
+
+### 3. YHTEYSTIEDOT (jos haluat muuttaa)
+- [ ] Osoite contact.html:ssä
+- [ ] Puhelinnumero
+- [ ] Sähköposti
+- [ ] Kartan koordinaatit (Google Maps)
+
+### 4. TESTAUS
+
+#### Toiminnallisuus:
+- [ ] Etusivu latautuu oikein
+- [ ] Kaikki 5 sivua toimivat
+- [ ] Navigaatio toimii
+- [ ] Mobile menu toimii (pienennä selain)
+- [ ] Lomake validoi kentät
+- [ ] Kartta näkyy yhteystiedoissa
+- [ ] Video tai YouTube-upotus toimii
+
+#### Responsiivisuus:
+- [ ] Mobiili (alle 480px) - Paina F12, Device Toolbar
+- [ ] Tabletti (768px)
+- [ ] Desktop (1200px+)
+- [ ] Kaikki elementit näkyvät oikein
+- [ ] Tekstit luettavissa
+- [ ] Kuvat skaalautuvat
+
+#### Selainyhteensopivuus:
+- [ ] Google Chrome
+- [ ] Firefox
+- [ ] Safari (jos Mac)
+- [ ] Edge
+
+### 5. VALIDOINTI
+
+#### HTML-validointi:
+- [ ] index.html → validator.w3.org
+- [ ] menu.html → validator.w3.org
+- [ ] about.html → validator.w3.org
+- [ ] gallery.html → validator.w3.org
+- [ ] contact.html → validator.w3.org
+- [ ] Korjattu kaikki virheet
+
+#### CSS-validointi:
+- [ ] style.css → jigsaw.w3.org/css-validator
+- [ ] Korjattu kaikki virheet (huom: CSS variables OK)
+
+### 6. VAATIMUSTEN TARKISTUS
+
+- [ ] ✅ Useampia sivuja (5 sivua)
+- [ ] ✅ Otsikot (h1-h6)
+- [ ] ✅ Listat (ul, ol, dl)
+- [ ] ✅ Tekstimuotoilut (strong, em, mark)
+- [ ] ✅ Kuvat (alt-tekstit!)
+- [ ] ✅ Linkit sisäiset ja ulkoiset
+- [ ] ✅ Taulukko (aukioloajat)
+- [ ] ✅ Lomake (POST-metodi)
+- [ ] ✅ Kartta (Google Maps)
+- [ ] ✅ Video tai videoupotus
+- [ ] ✅ Responsiivinen
+- [ ] ✅ Semanttinen HTML (header, nav, main, etc.)
+
+### 7. LAATU
+
+- [ ] Koodi siisti ja kommentoitu
+- [ ] Ei console.error -virheitä (F12)
+- [ ] Nopea latautuminen
+- [ ] Ammattimainen ulkonäkö
+- [ ] Yhtenäinen tyyli kaikilla sivuilla
+
+### 8. DOKUMENTAATIO
+
+- [ ] README.md luettu
+- [ ] Projektin rakenne ymmärretty
+- [ ] Tiedät mitä teit ja miksi
+
+## 🎯 BONUSPISTEET (Valinnainen)
+
+- [ ] Omat mukautukset (värit, fontit)
+- [ ] Lisäsivuja tai -ominaisuuksia
+- [ ] Animaatiot ja siirtymät
+- [ ] JavaScript-lisäyksiä
+- [ ] Saavutettavuus (ARIA)
+
+## 📦 PALAUTUS
+
+### Ennen palautusta:
+- [ ] Kaikki tiedostot yhteen kansioon
+- [ ] Kansion nimi: cafe-nordic (tai project)
+- [ ] Sisältää: HTML, CSS, JS, images, videos
+- [ ] README.md mukana
+
+### Palautusmuoto (tarkista opettajalta):
+- [ ] ZIP-tiedosto?
+- [ ] Palvelimelle lataus?
+- [ ] GitHub?
+
+## ✨ VALMIS!
+
+Kun kaikki kohdat yllä ovat valmiit:
+1. Testaa vielä kerran kaikki sivut
+2. Palauta projekti ohjeiden mukaan
+3. Ylpeile työstäsi! ☕
+
+---
+
+**MUISTA:**
+- Pelkkä koodin kopiointi ei riitä - lisää OMAT kuvat!
+- Testaa kaikki eri laitteilla
+- Validoi koodi
+- Tarkista vaatimukset
+
+**ONNEA!** 🚀

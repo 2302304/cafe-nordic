@@ -1,0 +1,75 @@
+# KUVAT - Ohjeet
+
+## Lisää nämä kuvat tähän kansioon:
+
+### Etusivu (index.html)
+- barista-coffee.jpg - Barista kahvinvalmistuksessa
+- latte.jpg - Latte-kuppi
+- cinnamon-bun.jpg - Korvapuusti
+- avocado-toast.jpg - Avokadoleipä
+
+### Galleria (gallery.html)
+**Sisustus:**
+- interior-1.jpg - Kahvilan sisustus
+- interior-2.jpg - Baaritiski
+- interior-3.jpg - Ikkunapaikat
+- interior-4.jpg - Sohvanurkkaus
+
+**Kahvit:**
+- latte-art-1.jpg - Latte art
+- espresso.jpg - Espresso-shot
+- cappuccino.jpg - Cappuccino
+- filter-coffee.jpg - Suodatinkahvi
+- iced-latte.jpg - Jääkahvi
+- chai-latte.jpg - Chai latte
+
+**Ruoka:**
+- cinnamon-buns.jpg - Korvapuusteja
+- croissants.jpg - Croissanteja
+- avocado-toast-detail.jpg - Avokadoleipä lähikuva
+- cake-display.jpg - Kakkuvitriini
+- salad-bowl.jpg - Salaattikulho
+- brownie.jpg - Brownie
+
+**Ihmiset:**
+- barista-work.jpg - Barista työssään
+- customers-1.jpg - Asiakkaita
+- latte-art-demo.jpg - Työpaja
+- event-1.jpg - Tapahtuma
+
+### Meistä (about.html)
+- founders.jpg - Perustajat Maria ja Erik
+- team-maria.jpg - Maria Virtanen
+- team-erik.jpg - Erik Lindström
+- team-anna.jpg - Anna Korhonen
+- team-mikko.jpg - Mikko Salo
+
+## Mistä löydän kuvia?
+
+### Ilmaiset kuvapankit (tekijänoikeusvapaat):
+1. **Unsplash.com** - Laadukkaat ammattilaisvalokuvat
+2. **Pexels.com** - Laaja valikoima ilmaisia kuvia
+3. **Pixabay.com** - Ilmaiset kuvat ja videot
+
+### Hakusanat:
+- "coffee cup"
+- "barista"
+- "latte art"
+- "cafe interior"
+- "croissant"
+- "pastry"
+- "avocado toast"
+- "cinnamon roll"
+- "cafe atmosphere"
+
+## Kuvasuositukset:
+
+- **Tiedostomuoto**: .jpg tai .webp
+- **Koko**: 1200-2000px leveydeltä
+- **Optimointi**: Käytä TinyPNG.com tai Squoosh.app pienentämään kokoa
+- **Nimeäminen**: Käytä kuvaavia nimiä (esim. latte-art-1.jpg)
+
+## Huom!
+- Muista tarkistaa tekijänoikeudet!
+- Käytä vain ilmaisia tai lisensoituja kuvia
+- Lisää alt-tekstit HTML-koodiin (jo valmiina)
